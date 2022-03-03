@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
+
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #f2ede3;
+    background: #333;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+a {
+	text-align: center;
+	margin: 0;
+	padding: 20px;
+	width: 100%;
+	font-size: 1.8em;
+	letter-spacing: 2px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+a:hover {
+    color: rgb(26, 11, 226);
+}
+
+.container { height: 100%; width: 100%;}
+
+.bl-main {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.bl-main > section {
+	position: absolute;
+	width: 20%;
+	height: 100%;
+}
+
+.bl-main > section:first-child {
+	top: 0;
+	left: 0;
+	background: #071E40;
+}
+
+.bl-main > section:nth-child(2) {
+	top: 0;
+	left: 20%;
+	background: #0B1165;
+}
+
+.bl-main > section:nth-child(3) {
+	top: 0;
+	left: 40%;
+	background: #194CE6;
+}
+
+.bl-main > section:nth-child(4) {
+	top: 0%;
+	left: 60%;
+	background: #7EA5F1;
+}
+
+.bl-main > section:nth-child(5) {
+	top: 0%;
+	left: 80%;
+	background: #B6C0F7;
+}
+
+.bl-main > section:nth-child(6) {
+	top: 0%;
+	left: 100%;
+	background: #10A296;
+}
+
+.bl-main > section:nth-child(7) {
+	top: 0%;
+	left: 120%;
+	background: #10A296;
+}
+
+
+.bl-box {
+	position: relative;
+	width: 100%;
+	height: 100%;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.bl-box h2 {
+	text-align: center;
+	margin: 0;
+	padding: 20px;
+	width: 100%;
+	font-size: 1.8em;
+	letter-spacing: 2px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.bl-box a {
+    text-align: center;
+	margin: 0;
+	padding: 20px;
+	width: 100%;
+	font-size: 1.8em;
+	letter-spacing: 2px;
+	font-weight: 700;
+	text-transform: uppercase;
+    text-decoration: none;
+    color: #f2ede3;
+}
+
+a:hover { 
+    color: rgb(26, 11, 226); 
+}
